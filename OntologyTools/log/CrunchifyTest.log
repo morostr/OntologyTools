@@ -1,0 +1,40 @@
+2016-04-14 14:01:46,624 [main] DEBUG OwlApiCheatSheet:102 - File f: C:\Data\aibel-bckp\transforms\RDF\control.ttl
+2016-04-14 14:01:53,705 [main] DEBUG OwlApiCheatSheet:103 - Ontology folder: C:\Data\aibel-bckp\transforms\RDF
+2016-04-14 14:02:01,200 [main] DEBUG OwlApiCheatSheet:106 - Protegefile : C:\Data\aibel-bckp\transforms\RDF\catalog-v001.xml
+2016-04-14 14:34:12,435 [main] DEBUG OwlApiCheatSheet:100 - FIRST time here
+2016-04-14 14:34:12,437 [main] DEBUG OwlApiCheatSheet:108 - File f: C:\Data\aibel-bckp\transforms\RDF\control.ttl
+2016-04-14 14:34:12,437 [main] DEBUG OwlApiCheatSheet:109 - Ontology folder: C:\Data\aibel-bckp\transforms\RDF
+2016-04-14 14:34:12,437 [main] DEBUG OwlApiCheatSheet:112 - Protegefile : C:\Data\aibel-bckp\transforms\RDF\catalog-v001.xml
+2016-04-14 14:34:13,056 [main] DEBUG OwlApiCheatSheet:80 - Loading: C:\Data\aibel-bckp\transforms\RDF\control.ttl
+2016-04-14 14:34:13,400 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/MMD_USERS
+2016-04-14 14:34:13,451 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/WCO_HS
+2016-04-14 14:34:13,786 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/disciplines
+2016-04-14 14:34:13,831 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/skos-MMD
+2016-04-14 14:34:13,846 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/pav-MMD
+2016-04-14 14:34:13,858 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/iso15926-2
+2016-04-14 14:34:13,948 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/standards
+2016-04-14 14:34:14,174 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/pav-MMD
+2016-04-14 14:34:14,174 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/pav-MMD
+2016-04-14 14:34:14,174 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/disciplines
+2016-04-14 14:34:14,175 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/MMD_USERS
+2016-04-14 14:34:14,175 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/iso15926-2
+2016-04-14 14:34:14,175 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/standards
+2016-04-14 14:34:14,175 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/WCO_HS
+2016-04-14 15:04:51,277 [main] DEBUG OwlApiCheatSheet:115 - File f: c:\Data\pcardl\projects\Part12\dev\ontology\omn\collecteddl.omn
+2016-04-14 15:04:51,661 [main] DEBUG OwlApiCheatSheet:116 - Ontology folder: c:\Data\pcardl\projects\Part12\dev\ontology\omn
+2016-04-14 15:05:07,653 [main] DEBUG OwlApiCheatSheet:119 - Protegefile : c:\Data\pcardl\projects\Part12\dev\ontology\omn\catalog-v001.xml
+2016-04-14 15:06:14,687 [main] DEBUG OwlApiCheatSheet:87 - Loading: c:\Data\pcardl\projects\Part12\dev\ontology\omn\collecteddl.omn
+2016-04-14 15:12:06,261 [main] DEBUG OwlApiCheatSheet:107 - FIRST time here
+2016-04-14 15:12:06,262 [main] DEBUG OwlApiCheatSheet:115 - File f: C:\Data\aibel-bckp\transforms\RDF\skos-MMD.ttl
+2016-04-14 15:12:06,262 [main] DEBUG OwlApiCheatSheet:116 - Ontology folder: C:\Data\aibel-bckp\transforms\RDF
+2016-04-14 15:12:06,262 [main] DEBUG OwlApiCheatSheet:119 - Protegefile : C:\Data\aibel-bckp\transforms\RDF\catalog-v001.xml
+2016-04-14 15:12:06,954 [main] DEBUG OwlApiCheatSheet:87 - Loading: C:\Data\aibel-bckp\transforms\RDF\skos-MMD.ttl
+2016-04-14 15:12:07,343 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/pav-MMD
+2016-04-14 15:12:07,356 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/iso15926-2
+2016-04-14 15:14:42,140 [main] DEBUG OwlApiCheatSheet:107 - FIRST time here
+2016-04-14 15:14:42,141 [main] DEBUG OwlApiCheatSheet:115 - File f: C:\Data\aibel-bckp\transforms\RDF\skos-MMD.ttl
+2016-04-14 15:14:42,142 [main] DEBUG OwlApiCheatSheet:116 - Ontology folder: C:\Data\aibel-bckp\transforms\RDF
+2016-04-14 15:14:42,142 [main] DEBUG OwlApiCheatSheet:119 - Protegefile : C:\Data\aibel-bckp\transforms\RDF\catalog-v001.xml
+2016-04-14 15:14:42,853 [main] DEBUG OwlApiCheatSheet:87 - Loading: C:\Data\aibel-bckp\transforms\RDF\skos-MMD.ttl
+2016-04-14 15:14:43,259 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/pav-MMD
+2016-04-14 15:14:43,273 [main] DEBUG OwlApiCheatSheet:33 - Request location for iri:http://data.aibel.com/ontology/iso15926-2

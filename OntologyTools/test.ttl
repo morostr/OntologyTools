@@ -1,0 +1,65 @@
+@prefix :        <http://d/> .
+@prefix tdb:     <http://jena.hpl.hp.com/2008/tdb#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fuseki:  <http://jena.apache.org/fuseki#> .
+
+<http://d/memModel_local-pca.ttl>
+      a       ja:MemoryModel ;
+      ja:content
+              [ ja:externalContent <file:///C:/Data/maritim/modam/ontology/ttl/local-pca.ttl>
+              ] .
+
+<http://d/memModel_compass.ttl>
+      a       ja:MemoryModel ;
+      ja:content
+              [ ja:externalContent <file:///C:/Data/maritim/modam/ontology/ttl/compass.ttl>
+              ] .
+
+[]    a       fuseki:Server ;
+      fuseki:services :service1 .
+
+<http://d/memModel_maritime-core.ttl>
+      a       ja:MemoryModel ;
+      ja:content
+              [ ja:externalContent <file:///C:/Data/maritim/modam/ontology/ttl/maritime-core.ttl>
+              ] .
+
+<http://d/#dataset>
+      a       ja:RDFDataset ;
+      rdfs:label "ds" ;
+      ja:defaultGraph
+              [ a       ja:MemoryModel ;
+                ja:content
+                        [ ja:externalContent <file:///C:/Data/maritim/modam/ontology/ttl/compass.ttl> , <file:///C:/Data/maritim/modam/ontology/ttl/gmod.ttl> , <file:///C:/Data/maritim/modam/ontology/ttl/local-pca.ttl> , <file:///C:/Data/maritim/modam/ontology/ttl/maritime-core.ttl>
+                        ]
+              ] ;
+      ja:namedGraph
+              [ ja:graph <http://d/memModel_compass.ttl> ;
+                ja:graphName "http://d/graph_compass.ttl"
+              ] ;
+      ja:namedGraph
+              [ ja:graph <http://d/memModel_maritime-core.ttl> ;
+                ja:graphName "http://d/graph_maritime-core.ttl"
+              ] ;
+      ja:namedGraph
+              [ ja:graph <http://d/memModel_gmod.ttl> ;
+                ja:graphName "http://d/graph_gmod.ttl"
+              ] ;
+      ja:namedGraph
+              [ ja:graph <http://d/memModel_local-pca.ttl> ;
+                ja:graphName "http://d/graph_local-pca.ttl"
+              ] .
+
+<http://d/memModel_gmod.ttl>
+      a       ja:MemoryModel ;
+      ja:content
+              [ ja:externalContent <file:///C:/Data/maritim/modam/ontology/ttl/gmod.ttl>
+              ] .
+
+:service1
+      a       fuseki:Service ;
+      fuseki:dataset <http://d/#dataset> ;
+      fuseki:name "name" ;
+      fuseki:serviceQuery "sparql" , "query" .
